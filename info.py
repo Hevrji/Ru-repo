@@ -95,7 +95,7 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/maheshgreat')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
+PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
@@ -115,7 +115,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'onepageyam.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '3c051fad11fe75825c67f3d297f10a611c25b735')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+jycD5_Q7gA04MmI1')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/All_Movie_Webseries_in_Hindi/32')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
